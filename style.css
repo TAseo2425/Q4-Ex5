@@ -1,0 +1,24 @@
+body{
+	background-color: #ffb3c6;
+	color: #D24D6E;
+	text-align: center;
+	font-family: "Sour Gummy", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+
+}
+.container{
+	background-color: #ffc2d1;
+	padding: 30px;
+	margin: auto;
+	border-radius: 13px;
+	width: 70%;
+	margin-top: 80px;
+	border: 2px dotted; #D24D6E;
+}
+.btn {
+	color: #D24D6E;
+}

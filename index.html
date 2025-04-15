@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+	<title>Exercise 5: Traffic Switch</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1>The Traffic Light</h1><hr>
+		<label>Enter Color (Green, Yellow, Red)</label>
+			<input type="text" id="color" placeholder="Choose from green, yellow, or red" class="form-control">
+
+		<h3 id="signal"></h3>
+
+		<button type="button" class="btn btn-light" onclick="getSignal()">Get Signal</button>
+		<button type="button" class="btn btn-light" onclick="window.location.reload()">Refresh</button>
+	</div>
+
+</body>
+</html>
